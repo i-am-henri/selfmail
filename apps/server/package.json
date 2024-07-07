@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "scripts": {
+    "dev": "tsx watch src/index.ts  --env-file=.env "
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.11.4",
+    "@huggingface/inference": "^2.7.0",
+    "database": "workspace:*",
+    "dotenv": "^16.4.5",
+    "hono": "^4.4.10",
+    "resend": "^3.4.0",
+    "zod": "^3.23.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1"
+  }
+}
